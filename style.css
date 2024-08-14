@@ -15,18 +15,21 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
 }
 
-nav ul li a {
-  /* Base styles */
-  color: #404040; /* Base text color */
+nav ul li {
+  margin-right: 10px; /* Adjust spacing as needed */
+}
+
+nav a {
+  font-size: 20px; /* Match the height of the logo */
   text-decoration: none;
-  padding: 5px 20px;
-  display: inline-block;
+  color: #404040; /* Base text color for nav links */
 }
 
-nav ul li a:hover {
-  /* Hover styles */
-  background-color: #D3D3D3; /* Background color on hover */
+nav a:hover {
+  background-color: #f0f0f0; /* Background color on hover */
   color: #404040; /* Text color on hover */
 }
