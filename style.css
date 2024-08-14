@@ -1,13 +1,14 @@
 /* Basic styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Ebrima, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 nav {
-  background-color: #f2f2f2;
-  padding: 10px;
+  background-color: #ffffff;
+  padding: 20px 10px;
+  color: #404040;
 }
 
 nav ul {
@@ -21,3 +22,17 @@ nav li a {
   color: #333;
   padding: 10px;
 }
+nav ul li a {
+  /* Base styles */
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  /* Hover styles */
+  background-color: #404040;
+  colour: #D3D3D3;
+}
+
