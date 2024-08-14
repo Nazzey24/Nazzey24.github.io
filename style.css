@@ -7,6 +7,7 @@ body {
 
 nav {
   background-color: #ffffff; /* Background color of the nav bar */
+  margin-left: 30px;
   padding: 0px 10px;
   color: #404040; /* Text color of the nav bar */
 }
@@ -19,12 +20,9 @@ nav ul {
   margin: 0;
 }
 
-nav ul li {
-  margin-right: 10px; /* Adjust spacing as needed */
-}
-
 nav a {
-  font-size: 20px; /* Match the height of the logo */
+  font-size: 10px; /* Match the height of the logo */
+  padding: 5px 60px;
   text-decoration: none;
   color: #404040; /* Base text color for nav links */
 }
