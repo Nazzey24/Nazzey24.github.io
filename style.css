@@ -6,9 +6,9 @@ body {
 }
 
 nav {
-  background-color: #ffffff;
-  padding: 20px 10px;
-  color: #404040;
+  background-color: #ffffff; /* Background color of the nav bar */
+  padding: 10px 10px;
+  color: #404040; /* Text color of the nav bar */
 }
 
 nav ul {
@@ -17,14 +17,9 @@ nav ul {
   justify-content: space-between;
 }
 
-nav li a {
-  text-decoration: none;
-  color: #333;
-  padding: 10px;
-}
 nav ul li a {
   /* Base styles */
-  color: white;
+  color: #404040; /* Base text color */
   text-decoration: none;
   padding: 15px 20px;
   display: inline-block;
@@ -32,7 +27,6 @@ nav ul li a {
 
 nav ul li a:hover {
   /* Hover styles */
-  background-color: #404040;
-  colour: #D3D3D3;
+  background-color: #D3D3D3; /* Background color on hover */
+  color: #404040; /* Text color on hover */
 }
-
